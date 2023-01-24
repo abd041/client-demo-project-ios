@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+/* top-header start */
+
+.top-header {
+    background-color: var(--accent-color);
+}
+
+.top-header .main {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header .main a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.top-header .main a i.bx {
+    font-size: 25px;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.top-header .main a:hover {
+    color: var(--light-color);
+}
+
+
+.top-header .main ul {
+    padding: 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.top-header .main ul li a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-left: 30px;
+}
+
+.top-header .main ul li a:hover {
+    color: var(--light-color);
+}
+
+/* top-header end */
+
+/* header start */
+.header {
+    width: 100%;
+    padding: 15px 0;
+    transition: var(--trans);
+    position: relative;
+}
+
+
+.header .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .main .logo-block {
+    width: auto;
+}
+
+.header .main .logo-block a img {
+    width: 100%;
+}
+
+/* logo end */
+
+.header .nav ul li a {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: var(--black-color);
+    transition: var(--trans);
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+.header .nav ul li a:hover {
+    background-color: var(--light-color);
+    color: var(--white-color);
+}
+
+.header .nav ul li a.last {
+    margin: 0;
+}
+
+.header .nav ul li a i.bx {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* header end */
+
+/* banner start */
+
+.banner {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: fit-content;
+    position: relative;
+}
+
+/* desc */
+
+.banner .desc {
+    padding: 220px 0 140px 0;
+}
+
+.banner .desc h1 {
+    font-size: 8rem;
+    color: var(--white-color);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.banner .desc h5 {
+    font-size: 4rem;
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+    background-color: rgba(0, 0, 0, .4);
+    padding-right: 20px;
+    display: table;
+    cursor: pointer;
+}
+
+.banner .desc h5 i.bx {
+    font-size: 40px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-right: 15px;
+    background-color: var(--light-color);
+}
+
+.banner .desc a.btn {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--white-color);
+    padding: 16px 46px;
+    background-color: var(--accent-color);
+    line-height: 1.2;
+    border-radius: 0;
+}
+
+/* banner end */
+
+/* sponsors start */
+
+.sponsors {
+    padding: 40px 0;
+    width: 100%;
+}
+
+.sponsors .title {
+    text-align: center;
+}
+
+.sponsors .title h3 {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: var(--black-color);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.sponsors .title h3 span {
+    font-weight: 700;
+}
+
+.sponsors .title h3::after {
+    content: '';
+    width: 7%;
+    height: 2px;
+    background-color: var(--light-color);
+
+    position: absolute;
+    left: 27%;
+    top: 46%;
+}
+
+.sponsors .title h3::before {
+    content: '';
+    width: 7%;
+    height: 2px;
+    background-color: var(--light-color);
+
+    position: absolute;
+    right: 27%;
+    top: 46%;
+}
+
+/* main */
+
+.sponsors .main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.sponsors .main .item {
+    width: 15%;
+    transition: var(--trans);
+    text-align: center;
+}
+
+.sponsors .main .item img {
+    width: 100%;
+}
+
+/* sponsors end */
+
+/* los-winter start */
+
+.los-winter {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.los-winter .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.los-winter .title h3 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.los-winter .title h3 span {
+    color: var(--accent-color);
+}
+
+.los-winter p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--para-color);
+    line-height: 1.8;
+    text-align: center;
+}
+
+.los-winter p a {
+    color: var(--light-color);
+}
+
+.los-winter p span {
+    margin: 10px 0;
+    display: block;
+}
+
+.los-winter h4 {
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: var(--light-color);
+    text-align: center;
+    margin-top: 35px;
+}
+
+.los-winter h6 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* los-winter end */
+
+/* book start */
+
+.book {
+    width: 100%;
+    padding: 140px 0 0 0;
+    overflow: hidden;
+}
+
+.book .main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book .main .img-block {
+    width: 44%;
+    box-shadow: 0 4px 10px 0 rgba(38, 49, 54, .15);
+}
+
+.book .main .img-block img {
+    width: 100%;
+}
+
+/* book end */
+
+/* members start */
+
+.members {
+    width: 100%;
+    margin: 70px 0;
+    position: relative;
+    padding: 250px 0 50px 0;
+}
+
+.members .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members .main .lt {
+    width: 40%;
+}
+
+.members .main .lt h3 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--black-color);
+    line-height: 1.4;
+}
+
+.members .main .lt h3 span {
+    color: var(--accent-color);
+}
+
+.members .main .lt p {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: var(--black-color);
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+.members .main .lt p a {
+    color: var(--light-color);
+    border-bottom: 1px solid var(--light-color);
+    line-height: 1;
+}
+
+.members .main .rt {
+    width: 56%;
+    position: relative;
+}
+
+.members .main .rt img {
+    width: 100%;
+}
+
+.members .main .rt img.dot {
+    width: 15%;
+
+    position: absolute;
+    right: -25px;
+    bottom: -28px;
+    z-index: -99;
+}
+
+/* color box */
+.members .white-box {
+    width: 55%;
+    height: 400px;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 15%;
+    left: 0;
+    z-index: -1;
+}
+
+.members .green-box {
+    width: 100%;
+    height: 500px;
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+
+/* members end */
+
+/* twitter start */
+
+.twitter {
+    width: 100%;
+    padding: 110px 0;
+    position: relative;
+}
+
+.twitter .title {
+    text-align: center;
+}
+
+.twitter .title h3 {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+/* main */
+.twitter .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.twitter .main .item {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 15px;
+}
+
+.twitter .main .item:hover {
+    box-shadow: 0 13px 15px 0 rgba(87, 115, 128, .1);
+}
+
+.twitter .main .item .img-block {
+    width: 20%;
+}
+
+.twitter .main .item .img-block img {
+    width: 100%;
+}
+
+.twitter .main .item .text {
+    width: 78%;
+    position: relative;
+}
+
+.twitter .main .item .text h5 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.twitter .main .item .text h5 span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--para-color);
+}
+
+.twitter .main .item .text p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--para-color);
+    margin: 15px 0 25px 0;
+    line-height: 1.5;
+}
+
+.twitter .main .item .text p span {
+    color: #03a9f4;
+}
+
+.twitter .main .item .text ul li {
+    margin-right: 8px;
+}
+
+.twitter .main .item .text ul li a {
+    width: 38px;
+    height: 38px;
+    background-color: #e9f0f5;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter .main .item .text ul li a i.bx {
+    font-size: 20px;
+    color: var(--black-color);
+}
+
+.twitter .main .item .text ul li:hover a {
+    background-color: var(--light-color);
+}
+
+.twitter .main .item .text ul li:hover a i.bx {
+    color: var(--white-color);
+}
+
+.twitter .main .item .text p.right {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #b5b5b5;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.twitter .btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.twitter .btn-block a.btn {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--white-color);
+
+    padding: 12px 40px;
+    background-color: var(--accent-color);
+    border-radius: 0;
+}
+
+/* twitter end */
+
+/* footer start */
+
+.footer {
+    height: fit-content;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: fit-content;
+}
+
+/* main */
+
+.footer .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+/* footer1 start */
+.footer .main .footer1 {
+    width: 300px;
+}
+
+.footer .main .footer1 img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* footer1 end */
+
+/* footer2 start */
+
+.footer .main .footer2 {
+    width: max-content;
+}
+
+.footer .main .footer2 h5 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--white-color);
+    padding-bottom: 40px;
+}
+
+.footer .main .footer2 ul {
+    display: block;
+}
+
+.footer .main .footer2 ul li a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+
+    background-image: url(../images/right-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 8px;
+    background-position: 0 center;
+    padding-left: 20px;
+}
+
+.footer .main .footer2 ul li a.last {
+    margin-bottom: 0;
+}
+
+.footer .main .footer2 ul li a:hover {
+    color: var(--light-color);
+}
+
+/* footer2 end */
+
+/* footer3 start */
+
+.footer .main .footer3 {
+    width: 250px;
+}
+
+.footer .main .footer3 h5 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--white-color);
+    padding-bottom: 40px;
+}
+
+.footer .main .footer3 h4 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--light-color);
+    padding-bottom: 20px;
+}
+
+.footer .main .footer3 h4 span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #b0b0b0;
+    margin-top: 5px;
+}
+
+.footer .main .footer3 ul {
+    display: block;
+}
+
+.footer .main .footer3 ul li i.bx {
+    font-size: 22px;
+    color: var(--light-color);
+}
+
+.footer .main .footer3 ul li a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.footer .main .footer3 ul li a.last {
+    margin-bottom: 0;
+}
+
+.footer .main .footer3 ul li a:hover {
+    color: var(--light-color);
+}
+
+/* footer3 end */
+
+/* footer4 start */
+
+.footer .main .footer4 {
+    width: max-content;
+}
+
+.footer .main .footer4 ul {
+    display: block;
+}
+
+.footer .main .footer4 ul li {
+    margin-bottom: 40px;
+}
+
+.footer .main .footer4 img {
+    width: 100%;
+}
+
+/* footer4 end */
+
+/* footer end */
+
+/* copy-block start */
+
+.copy-block {
+    padding: 30px 0;
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
+.copy-block p {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+/* copy-block end */
+
+/* go to top */
+
+#myBtn {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    padding: 10px;
+    z-index: 999;
+    font-size: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    border-radius: 180px;
+    line-height: 0;
+    transition: all 0.3s ease-in-out;
+    color: var(--white-color);
+}
+
+#myBtn:hover {
+    box-shadow: 0 0 15px 0 rgba(7, 122, 206, 0.5);
+}
+
+/* go to top */
